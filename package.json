@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "node scripts/clean.js",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "deploy": "node scripts/deploy.js"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
