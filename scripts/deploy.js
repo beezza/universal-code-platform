@@ -7,6 +7,8 @@ try {
     console.log("  OK")
     console.log("[GIT] Committing...")
     execSync(`git commit -am "Updated - ${new Date().toLocaleString({ timeZone: 'Asia/Tokyo' })}"`)
+    console.log("[GIT] Pushing...")
+    execSync("git push")
     printOut("SUCCESS!")
 }catch (ex) {
     printOut(ex)
